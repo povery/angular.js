@@ -54,7 +54,7 @@ We will keep this in mind though, as we add more features.
 So, now that we learned we should put everything in its own file, our `app/` directory will soon be
 full with dozens of files and specs (remember we keep our unit test files next to the corresponding
 source code files). What's more important, logically related files will not be grouped together; it
-will be really difficult of locate all files related to a specific section of the application and
+will be really difficult to locate all files related to a specific section of the application and
 make a change or fix a bug.
 
 So, what shall we do?
@@ -175,7 +175,7 @@ will make all entities registered on `phoneList` available on `phonecatApp` as w
     we have created. This might seem tedious, but is totally worth it.
   </p>
   <p>
-    In a production-ready application, you would concatenate and minify all your JavaScript files
+    In a production-ready application, you would concatenate and minify all of your JavaScript files
     anyway (for performance reasons), so this won't be an issue any more.
   </p>
 </div>
